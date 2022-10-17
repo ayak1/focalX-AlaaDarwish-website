@@ -1,0 +1,27 @@
+.biography{
+    margin-top: 94px;
+}
+.biography .content{
+    /* margin-top: 64px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px ;
+}
+.biography .content .text{
+    color: var(--primary-color);
+    line-height: 36px;
+    font-weight: 400;
+    font-size: 1.25;
+    letter-spacing: 0.08em;
+
+}
+.biography .content .img{
+    width: 362px;
+    height: 476px;
+}
+.biography .content .img img{
+    width: 362px;
+    height: 476px;
+    border-radius: 25px;
+}

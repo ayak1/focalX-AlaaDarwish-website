@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap');
+:root{
+    --main-color:#F9CC11;
+    --primary-color: #F5F5F7;
+    --dark-color:  #1D1C1C;
+    --black-color: #1E1E1E;
+    --disactive-color: #ACACAE;
+    --left-right-padding: 20px
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+/* section title style */
+.section_title_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 64px;
+}
+.section_title{
+    position: relative;
+    /* width: 200px; */
+    line-height: 54px;
+    text-align: center;
+    color: var(--primary-color);
+    font-size: 2.813rem;
+    font-weight: 700;
+}
+.section_title span{
+    color: var(--main-color);
+    font-weight: 300;
+    font-size: 1rem;
+    position: absolute;
+    top: -30px;
+    right: 0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}

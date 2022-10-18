@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+    .achievement {
+        background: var(--black-color);
+        width: 100%;
+        padding: 0 var(--left-right-padding);
+        }
+      
+    .achievement .flex-box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 64px 114px ;
+        margin-bottom: 64px;
+    }    
+        
+    .achievement .flex-item{
+            position: relative;
+        }
+        /* .flex-item:nth-of-type(1) {
+            top: 2744px;
+        }
+        .flex-item:nth-of-type(2) {
+            top: 2932px;
+        }
+        .flex-item:nth-of-type(3) {
+            top: 3120px;
+        } */
+
+        
+      .achievement .flex-box .flex-item::before {
+            content: " ";
+            border: 1px solid var(--main-color);
+            transform: rotate(90deg);
+            position: absolute;
+            width: 109px;
+            height: 0px;
+            left: -54px;
+            top: 55px;
+                
+        }
+        .flex-item:nth-of-type(1)::before {
+            /* top: 2754px; */
+            bottom: 79px;
+        }
+        .flex-item:nth-of-type(2)::before {
+            /* top: 2942px; */
+            bottom: 79px;
+        }
+        .flex-item:nth-of-type(3)::before {
+            /* top: 3130px; */
+            bottom: 69px;
+        }
+        
+        
+        
+        .achievement .flex-box .flex-item .box {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+        }
+        
+        /* founder & CEO at focal X agency */
+        .achievement .flex-box .flex-item .box .tit  {
+            margin-left: 24px;
+            font-weight: 400;
+            font-size: 1.5625rem;
+            line-height: 40px;
+            color: var(--primary-color);
+        }
+        
+         /* 2022/09/09 */
+         .achievement .flex-box .flex-item .box .date {
+            margin-left: 506px;
+            position: absolute;
+            right: 0px;
+            font-weight: 300;
+            font-size: 1rem;
+            line-height: 22px;
+            color: var(--main-color);
+        
+        }
+        .achievement .flex-box .flex-item .paragraph {
+            margin-left: 24px;
+            height: 66px;
+            left: 204px;
+            font-weight: 300;
+            font-size: 1rem;
+            line-height: 22px;
+            color: var(--primary-color);
+        
+        }
+        
+         /* view more */
+        
+       
+        .achievement .more{
+            color: var(--main-color);
+            text-align: center;
+            border-bottom: 1px var(--border-bottom);
+            text-decoration: underline;
+            }
+        
+       
+        
+        
+        
+       

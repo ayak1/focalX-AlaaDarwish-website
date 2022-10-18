@@ -1,0 +1,131 @@
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    /* >>>>>>>> */
+    /* padding left right var in main css  */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* @media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+} */
+
+.specialized {
+    background-color: var(--black-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
+    /*  */
+}
+
+/* .specialized h1 {
+    text-align: center;
+    color: #FFFF;
+    margin-bottom: 68px;
+    font-size: 45px;
+    font-weight: 700;
+} */
+
+.specialized h2 {
+    /* font-size: 45px; */
+    font-weight: 700;
+    line-height: 40px;
+    color: #F5F5F7;
+    padding-left: 30px;
+}
+
+.specialized h3 {
+    font-size: 30px;
+    /* >>>>>>>>>>>> */
+    /* font size in rem  */
+    /* font-size: 1.875rem; */
+    font-weight: 400;
+    line-height: 40px;
+
+    color: #F5F5F7;
+    /* >>>>>>>>>>> */
+    /* color in main css root var --primary-color */
+    /* color: var(--primary-color); */
+    padding-left: 30px;
+    margin-top: 64px;
+}
+
+.specialized p {
+    color: #acacac;
+    font-size: 16px;
+     /* >>>>>>>>>>>> */
+    /* font size in rem  */
+    /* font-size: 1rem; */
+    font-weight: 300;
+    line-height: 22px;
+    padding: 30px;
+}
+
+.specialized .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 68px;
+
+}
+
+.specialized .container .spec-yellow .spec {
+    background-color: #1D1C1C;
+    /* >>>>>>>>>>> */
+    /* color in main css root var --dark-color */
+    /* background-color: var(--dark-color); */
+    width: 382px;
+    height: 372px;
+    padding: 10px;
+
+    /* البوردر راديوس ما الا تاثير هون */
+    /* border-radius: 0px 10px 10px 10px; */
+
+    position: relative;
+}
+.specialized .spec {
+    z-index: 111;
+    position: relative;
+}
+
+.specialized .spec::before {
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 160px;
+    left: -8px;
+    top: -8px;
+
+    background-color: #F9CC11;
+    /* >>>>>>>>>>> */
+    /* color in main css root var --main-color */
+    /* background-color: var(--main-color); */
+}
+
+ .specialized .spec::after {
+    content: '';
+    position: absolute;
+    width: 160px;
+    height: 8px;
+    top: -8px;
+    right: 230px;
+    background-color: #F9CC11;
+    /* >>>>>>>>>>> */
+    /* color in main css root var --main-color */
+    /* background-color: var(--main-color); */
+}

@@ -1,0 +1,16 @@
+.clients{
+   padding-top: 106px;
+    padding-bottom: 105px;
+}
+.clients .wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 90px;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    overflow: hidden;
+ }
+ .clients .wrapper .blur{
+    filter: blur(4px);
+ }

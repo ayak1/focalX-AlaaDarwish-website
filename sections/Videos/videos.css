@@ -3,7 +3,7 @@
 }
 .sections__container{
     background: url('../../assets/images/bg.png') no-repeat top right/cover ;
-
+    background-attachment: fixed;
 }
 .videos{
     padding: 40px  var(--left-right-padding);
@@ -19,7 +19,6 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 65px;
-    /* row-gap: 65px; */
     margin-top: 68px;
 }
 .videos .container .left {
@@ -63,10 +62,21 @@
     border: 1px solid var(--dark-color);
 }
 .videos .more{
+    position: relative;
+    font-weight: 400;
+    font-size: 1.25rem;
     color: var(--main-color);
     text-align: center;
+    line-height: 24px;
+    letter-spacing: 0.04em;
     margin-top: 64px;
-    border-bottom: 1px var(--border-bottom);
 }
-
-/* //////////////////////////////// */
+.videos .more::after{
+    content: '';
+    width: 104px;
+    height: 1px ;
+    background-color: var(--main-color);
+    position: absolute;
+    left: 0;
+    top: 22px;
+}

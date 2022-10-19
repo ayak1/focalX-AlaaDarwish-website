@@ -1,0 +1,116 @@
+.lets_talk{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 92px;
+}
+.lets_talk .info{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    margin-bottom: 63px;
+}
+.lets_talk .info .info_item{
+    text-align: center;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.375rem;
+    width: 403px;
+    color: var(--disactive-color);
+    padding: 13px 160px;
+    border-bottom: solid 1px var(--main-color);
+    background: linear-gradient(102.21deg, rgba(187, 187, 187, 0.2) 1.03%, rgba(121, 121, 121, 0) 100%);
+    backdrop-filter: blur(10px);
+}
+.lets_talk .rec{
+    width: 1006px;
+    height: 468px;
+    background: linear-gradient(102.21deg, rgba(187, 187, 187, 0.2) 1.03%, rgba(121, 121, 121, 0) 100%);
+    backdrop-filter: blur(10px);
+    margin-bottom: 64px;
+    margin-top: 64px;
+    border-width: 1px;
+    border-style: solid;
+    border-image:  linear-gradient( to bottom,  rgba(249, 204, 17, 1) 20% ,rgba(249, 204, 17, 0.3) 80%) 1;
+}
+.lets_talk .rec h1{
+    margin-left: 323px;
+    margin-top: 64px;
+    margin-bottom: 32px;
+    font-weight: 400;
+    font-size: 1.875rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+.lets_talk .rec p{
+    text-align:center;
+    margin-left: 234px;
+    width: 537px;
+    font-weight: 300;
+    font-size: 1rem;
+    color: rgba(217, 217, 217, 0.6);
+}
+.lets_talk .button{
+    width: 1006px;
+}
+.lets_talk button{
+    width:202px;
+    height:60px;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--main-color);
+    font-weight: 400;
+    font-size: 1.875rem;
+    margin-bottom: 92px;
+}
+.lets_talk .info_cols{
+    display: flex;
+    gap:355px;
+    font-weight: 400;
+    font-size: 1.875rem;
+    color: var(--disactive-color);
+    margin-bottom: 64px;
+}
+.lets_talk .info_cols .info_col_1{
+    width: 334px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.lets_talk .info_cols .info_col_2{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    text-align: center;
+}
+.lets_talk .info_cols .info_col_2 .social{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:32px;
+}
+.lets_talk .info_cols .info_col_2 .social div{
+    width: 32px;
+    height: 30px;
+}
+.lets_talk .info_cols .info_col_2 .social .ic{
+    width: 44px;
+    height: 42px;
+}
+.lets_talk .info_cols .info_col_2 .social img{
+    width: 100%;
+    height: 100%;
+}
+.lets_talk hr{
+    color: #fff;
+    margin-bottom: 22px;
+    width: 100%;
+}
+.lets_talk .end{
+    padding-bottom: 22px;
+    font-weight: 300;
+    font-size: 1rem;
+    color: var(--disactive-color);
+    text-align: center;
+}
+

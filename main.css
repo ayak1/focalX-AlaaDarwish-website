@@ -68,7 +68,7 @@ ul{
 .bg-img-down{
     position: fixed;
     width: 100vw;
-    height: 100vh;
+    height: 110vh;
     z-index: -3;
 }
 .bg-img-hero img , .bg-img-down img{

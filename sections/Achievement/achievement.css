@@ -1,0 +1,65 @@
+.achievement {
+    padding: 0 var(--left-right-padding);
+    margin-top: 105px;
+}
+.achievement .flex-box {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 64px ;
+    margin-bottom: 64px;
+}    
+.achievement .flex-item{
+        position: relative;
+    }
+.achievement .flex-box .flex-item::before {
+        content: " ";
+        border: 1px solid var(--main-color);
+        transform: rotate(90deg);
+        position: absolute;
+        width: 109px;
+        height: 0px;
+        left: -54px;
+        top: 55px;
+    }
+.achievement .flex-box .flex-item .box {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+    /* founder & CEO at focal X agency */
+.achievement .flex-box .flex-item .box .tit  {
+        margin-left: 24px;
+        font-weight: 400;
+        font-size: 1.5625rem;
+        line-height: 40px;
+        color: var(--primary-color);
+    }
+
+     /* 2022/09/09 */
+.achievement .flex-box .flex-item .box .date {
+        /* margin-left: 506px; */
+        /* position: absolute;
+        right: 0px; */
+        font-weight: 300;
+        font-size: 1rem;
+        line-height: 22px;
+        color: var(--main-color);
+
+}
+.achievement .flex-box .flex-item .paragraph {
+        margin-left: 24px;
+        font-weight: 300;
+        font-size: 1rem;
+        line-height: 22px;
+        color: var(--primary-color);
+}
+     /* view more */
+.achievement .more{
+        color: var(--main-color);
+        text-align: center;
+        /* border-bottom: 1px var(--border-bottom); */
+        text-decoration: underline;
+}

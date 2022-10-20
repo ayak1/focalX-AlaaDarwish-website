@@ -1,5 +1,5 @@
 .specialized {
-    padding: 0 var(--left-right-padding);
+    /* padding: 0 var(--left-right-padding); */
     margin-top: 102px;
 }
 .specialized .container {

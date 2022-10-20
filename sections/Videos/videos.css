@@ -2,11 +2,12 @@
     --border-bottom :  solid var(--main-color)
 }
 .sections__container{
-    background: url('../../assets/images/bg.png') no-repeat top right/cover ;
-    background-attachment: fixed;
+    /* background: url('../../assets/images/bg.png') no-repeat top right ; */
+    /* background-attachment: fixed; */ 
+    position: relative;
 }
 .videos{
-    padding: 40px  var(--left-right-padding);
+    padding: 40px  0;
     width: 100%;
     display: flex;
     justify-content: center;

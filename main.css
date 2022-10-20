@@ -66,6 +66,7 @@ ul{
     z-index: -4;
 }
 .bg-img-down{
+    width: 100vw;
     position: absolute;
     z-index: -3;
     top: 0;
@@ -77,6 +78,7 @@ ul{
 }
 .bg-img-down img{
     height: 100%;
+    width: 100%;
 }
 .bg-img-hero::after , .bg-img-down::after{
     content: '';

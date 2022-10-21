@@ -5,6 +5,9 @@
     flex-direction: column;
     margin-top: 92px;
 }
+.lets_talk .nav .nav-item .active{
+    
+}
 .lets_talk .info{
     display: flex;
     justify-content: center;
@@ -72,15 +75,15 @@
     margin-bottom: 64px;
 }
 .lets_talk .info_cols .info_col_1{
-    width: 334px;
+    /* width: 334px; */
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    row-gap: 32px;
 }
 .lets_talk .info_cols .info_col_2{
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    row-gap: 32px;
     text-align: center;
 }
 .lets_talk .info_cols .info_col_2 .social{

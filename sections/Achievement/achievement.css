@@ -22,7 +22,7 @@
         width: 109px;
         height: 0px;
         left: -54px;
-        top: 55px;
+        top: 63px;
     }
 .achievement .flex-box .flex-item .box {
         display: flex;
@@ -54,12 +54,25 @@
         font-weight: 300;
         font-size: 1rem;
         line-height: 22px;
-        color: var(--primary-color);
+        color: var(--disactive-color);
+        margin-top: 18px;
 }
-     /* view more */
 .achievement .more{
-        color: var(--main-color);
-        text-align: center;
-        /* border-bottom: 1px var(--border-bottom); */
-        text-decoration: underline;
+    position: relative;
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: var(--main-color);
+    text-align: center;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    margin-top: 64px;
+}
+.achievement .more::after{
+    content: '';
+    width: 104px;
+    height: 1px ;
+    background-color: var(--main-color);
+    position: absolute;
+    left: 0;
+    top: 22px;
 }

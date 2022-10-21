@@ -36,7 +36,7 @@ height: 150px;
     font-weight: 400;
     font-size: 1.875rem;
     line-height:40px;
-    width: 63px;
+    /* width: 63px; */
 }
 .experience .title_box .title_element .title_line::after{
     content: '';

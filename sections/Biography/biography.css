@@ -7,12 +7,14 @@
     align-items: center;
     gap: 64px ;
 }
-.biography .content .text{
+.biography .content .text p{
     color: var(--primary-color);
     line-height: 36px;
     font-weight: 400;
-    font-size: 1.25;
+    font-size: 1.25rem;
     letter-spacing: 0.08em;
+    word-spacing: -1px;
+    text-align: justify;
 }
 .biography .content .img{
     width: 362px;

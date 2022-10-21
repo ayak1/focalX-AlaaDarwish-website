@@ -1,6 +1,6 @@
 .clients{
    padding-top: 106px;
-    padding-bottom: 105px;
+    /* padding-bottom: 105px; */
 }
 .clients .wrapper{
     display: flex;
